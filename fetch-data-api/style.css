@@ -1,0 +1,33 @@
+#userTable {
+    border: 1px solid rgb(246, 43, 43);
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+table,
+th {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(72, 192, 72);
+    padding: 6px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 700px;
+}
+
+td {
+    padding: 5px 8px;
+}
+
+tr {
+    background-color: rgb(255, 255, 255);
+    padding: 4px 7px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(235, 235, 235);
+}
